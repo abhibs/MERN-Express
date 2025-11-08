@@ -7,7 +7,7 @@ app.get('/abhi', function (req, res) {
 })
 
 app.get('/abhiram', function (req, res) {
-  res.download('./upload/abhi.jpeg')
+  res.status(200).send('Abhiram B S Javalli Tudoor Thirthahalli')
 })
 
 app.listen(8000, function () {
